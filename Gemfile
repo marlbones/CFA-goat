@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'simple_form'
+gem 'friendly_id', '~> 5.1.0'
+gem "bulma-rails", "~> 0.4.0"
 gem 'social-share-button'
 gem 'omniauth-facebook'
 gem 'devise'
